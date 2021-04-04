@@ -33,6 +33,6 @@ def testEvaluate():
         '1*2'
     ]
     for s in strings:
-        print(evaluate(s))
+        print(s.ljust(10),':',evaluate(s))
 
 testEvaluate()
