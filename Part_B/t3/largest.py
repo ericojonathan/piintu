@@ -28,6 +28,6 @@ def testLargest():
     ]
 
     for a in arrs:
-        print(largest(a))
+        print(a,':',largest(a))
 
 testLargest()
